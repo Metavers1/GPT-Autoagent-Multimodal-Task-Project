@@ -1,0 +1,9 @@
+colorama==0.4.6
+langchain==0.1.12
+langchain_experimental==0.0.54
+langchain_openai==0.0.8
+pandas==2.2.1
+pydantic==1.10.12
+python-dotenv==1.0.1
+chroma-hnswlib==0.7.2
+chromadb==0.4.5
