@@ -7,7 +7,7 @@
 ### 使用示例
 ![命令窗口对话](image/chat.png)
 运行 `main.py` 后，在命令窗口中对话，agent 可以自行拆解关键概念如“销售额不达标”等，并思考可以执行的操作（如调用工具），这些操作基于 chain of thought 技术，具体的思维树main提示词可见`prompts\main\main.txt`。输出的自然语言代表具象的思维，人类大脑里的思维还要再复杂一些有时候可以称为抽象的字符，agent的思维是纯自然语言。
-![thought](image\thought0.png)
+![thought](image/thought0.png)
 ### 多轮对话任务完成示例
 使用`ListDirectory`工具，如图可正确输出json格式调用工具列出仓库所有文件，并以此展开下一轮思考。
 ![正确输出 JSON 格式调用工具](image/tool0.png)
