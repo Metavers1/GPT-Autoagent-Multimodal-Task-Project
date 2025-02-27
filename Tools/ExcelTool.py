@@ -54,5 +54,5 @@ def get_first_n_rows(
     result += f"这是 '{filename}' 文件第一个工作表的前{n}行样例：\n\n{n_lines}"
     return result
 # 指定文件路径
-filename = r'C:\Users\w1462\Desktop\autogpt\auto-gpt-work\data\2023年8月-9月销售记录.xlsx'
+filename = r'.\auto-gpt-work\data\2023年8月-9月销售记录.xlsx'
 
